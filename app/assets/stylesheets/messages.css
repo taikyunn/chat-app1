@@ -17,6 +17,9 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .chat-side-bottom{
   background-color: #2f3e51;
@@ -36,8 +39,34 @@
   padding: 46px 40px 0;
 }
 
-..chat-main-bottom{
+.chat-main-bottom{
   background-color: #dddddd;
   height: 90px;
   padding: 20px 40px;
+}
+
+.chat-side-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.chat-side-button{
+  font-size: 10px;
+}
+
+.chat-side-button a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.chat-room{
+  padding-top:20px;
+  padding-bottom: 40px;
+}
+.room-name a{
+  color:white ;
+  text-decoration:none;
 }
